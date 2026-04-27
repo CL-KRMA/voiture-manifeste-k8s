@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: ghcr.io/ryan44c8/voiture-frontend:latest
+          image: ghcr.io/cl-krma/voiture-frontend:ec6f572544ef2a3b0013030ffee06279518d1b83
           ports:
             - containerPort: 3000
           env:
